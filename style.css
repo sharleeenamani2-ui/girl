@@ -4,6 +4,7 @@ body {
 }
 
 .header {
+    padding-top: 40px;
     width: 100%;
     height: 200px;
     background-image: linear-gradient(rgb(255, 174, 24), rgb(60, 233, 60)),url(img/different\ women.jpg);
@@ -11,7 +12,7 @@ body {
 
 .header .navlink {
     width: 96%;
-    height: 50px;
-    background: white;
+    height: 80px;
+    border-bottom: white solid 3px;
     margin: auto;
 }
