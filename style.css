@@ -8,3 +8,10 @@ body {
     height: 200px;
     background-image: linear-gradient(rgb(255, 174, 24), rgb(60, 233, 60)),url(img/different\ women.jpg);
 }
+
+.header .navlink {
+    width: 96%;
+    height: 50px;
+    background: white;
+    margin: auto;
+}
