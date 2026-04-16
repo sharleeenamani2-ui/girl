@@ -9,7 +9,7 @@ body {
 /* headd */
 .links {
   background: linear-gradient(rgba(234, 21, 21, 0.658), rgba(19, 19, 195, 0.3)),
-              url(/images/different\ women.jpg);
+              url(images/different\ women.jpg);
   width: 100%;
   height: 60vh;
   background-repeat: no-repeat;
@@ -260,7 +260,7 @@ border: 2px solid rgb(5, 5, 5);
 
 /* About Us page */
 .aboutus .links {
-  background: url("/images/kids omg.jpg");
+  background: url("images/kids omg.jpg");
   background-size: cover;
   background-position: top;
   height: 60vh;
@@ -318,7 +318,7 @@ border: 2px solid rgb(5, 5, 5);
 
 /* Gallery.html */
 .gallary .links{
-   background: url("/images/graduation.jpg");
+   background: url("images/graduation.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -423,7 +423,7 @@ form button:hover {
 /* Programsss page */
 .proograms .links{
  
-  background: linear-gradient(rgba(214, 11, 139, 0.346)) ,url(/images/tailor.jpg);
+  background: linear-gradient(rgba(214, 11, 139, 0.346)) ,url(images/tailor.jpg);
    background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
