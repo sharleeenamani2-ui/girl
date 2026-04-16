@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -7,8 +8,8 @@ body {
 
 /* headd */
 .links {
-  background: linear-gradient(rgba(234, 21, 21, 0.848), rgba(19, 19, 195, 0.3)),
-              url(images/different\ women.jpg);
+  background: linear-gradient(rgba(234, 21, 21, 0.658), rgba(19, 19, 195, 0.3)),
+              url(/images/different\ women.jpg);
   width: 100%;
   height: 60vh;
   background-repeat: no-repeat;
@@ -45,6 +46,20 @@ body {
     padding: 5px;
     
 
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: transparent;
+}
+
+/* center links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
 }
 
 .feedback {
@@ -112,11 +127,69 @@ body {
   position: relative;
   z-index: 2;
 }
+.what-we-do, .why, .impact, .cta {
+  padding: 50px 20px;
+  text-align: center;
+  
+  
+
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #7b0ec4;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+.card:hover{
+   transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+} 
+.impact h2 {
+  border-bottom: 3px solid black;
+  
+  display: inline;
+
+  padding-bottom: 5px;
+
+
+}
+
+.cta {
+  background: #ff4081;
+  color: white;
+}
+.cta p{
+padding-bottom: 10px;
+}
+.cta-btn:hover {
+  background-color: rgb(50, 50, 150);
+  transform: scale(1.1);
+
+}
 .btn-outline{
   
   text-decoration: none;
    padding: 15px;
-   gap: 20px;
+   gap: 30px;
+   margin-right: 20px;
   
   
   border-radius: 10px;
@@ -138,25 +211,12 @@ border: 2px solid rgb(5, 5, 5);
 }
 
 
-
-.cta-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px;
-  margin: 20px auto;
-  background-color: rgb(82, 82, 212);
-  color: white;
-  
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
 .cta-btn:hover {
   background-color: rgb(50, 50, 150);
   transform: scale(1.1);
 }
+
+
 
 /* Home html containers*/
 .container {
@@ -200,7 +260,7 @@ border: 2px solid rgb(5, 5, 5);
 
 /* About Us page */
 .aboutus .links {
-  background: url("images/kids omg.jpg");
+  background: url("/images/kids omg.jpg");
   background-size: cover;
   background-position: top;
   height: 60vh;
@@ -258,7 +318,7 @@ border: 2px solid rgb(5, 5, 5);
 
 /* Gallery.html */
 .gallary .links{
-   background: url("images/graduation.jpg");
+   background: url("/images/graduation.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -363,7 +423,7 @@ form button:hover {
 /* Programsss page */
 .proograms .links{
  
-  background: linear-gradient(rgba(214, 11, 139, 0.346)) ,url(images/tailor.jpg);
+  background: linear-gradient(rgba(214, 11, 139, 0.346)) ,url(/images/tailor.jpg);
    background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -473,36 +533,63 @@ form button:hover {
 }
 
 /* Support page */
-.suppport .links{
- 
-  background: linear-gradient(rgba(214, 11, 139, 0.346)) ,url(images/tailor.jpg);
-   background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 60vh;
-}
-
 .support {
-  padding: 40px;
   text-align: center;
-
-
+  padding: 50px 20px;
+  background: #f3e5f5;
 }
-.support h2 {
-  color: rgb(82, 82, 212);
+
+.support-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
-.support button {
-  background-color: rgb(180, 21, 21);
-  color: white;
-  padding: 15px 25px;
+
+.option {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.option button {
+  margin-top: 10px;
+  padding: 10px 15px;
   border: none;
-  border-radius: 8px;
+  background: #8e24aa;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.support button:hover {
-  background-color: rgb(120, 15, 15);
-  transform: scale(1.1);
+
+.option button:hover {
+  background: #ff4081;
+}
+
+/* Impact section */
+.impact-support {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fce4ec;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Testimonial */
+.testimonial {
+  background: #8e24aa;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
 }
 
 /* Animations */
@@ -513,4 +600,55 @@ form button:hover {
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(50px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+
+.footer {
+  background: #f571a4;
+
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-box h4 {
+  margin-bottom: 15px;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin: 5px 0;
+}
+
+.footer-box ul li a {
+  text-decoration: none;
+  color: #b30b0b;
+}
+
+.footer-box ul li a:hover {
+  color: #ff4081;
+}
+
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 8px;
+  color: #17924a;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.social-icons a:hover {
+  color: #ff4081;
 }
